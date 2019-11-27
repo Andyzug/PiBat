@@ -44,6 +44,7 @@ the i2cdetect  program will probe all the addresses on a bus, and report whether
     70: -- -- -- -- -- -- -- --
 
 If the adress is different than '4d' then modify file 'pibat.py' line 12
+
 To use pibat.py, in terminal, navigate to it location and type:
 
     python pibat.py
