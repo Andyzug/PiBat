@@ -7,7 +7,7 @@ The default Raspbian image disables I2C by default so before you can use it the 
 
 From the command line or Terminal window start by running the following command :
 
-  sudo raspi-config
+    sudo raspi-config
 
     This will launch the raspi-config utility. Select “Interfacing Options” 
     Highlight the “I2C” option and activate “<Select>”.
@@ -46,5 +46,5 @@ the i2cdetect  program will probe all the addresses on a bus, and report whether
 If the adress is different than '4d' then modify file 'pibat.py' line 12
 
 To use pibat.py, in terminal, navigate to it location and type:
-  python pibat.py
+    python pibat.py
 
