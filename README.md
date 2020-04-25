@@ -1,5 +1,5 @@
 # PiBat
-Battery Shield for Raspberry Pi 3/3B+
+Battery Shield for Raspberry Pi 3/3B+ zero/w
 
 RPI can read battery level and voltage from PiBat using i2c interface
 
